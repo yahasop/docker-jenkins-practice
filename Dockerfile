@@ -1,9 +1,5 @@
-FROM ubuntu:latest
+FROM python:3.10
 
-RUN apt update
-RUN apt install python3
-RUN apt update
-RUN apt install python-pip
 RUN apt update
 RUN pip install pylint
 
